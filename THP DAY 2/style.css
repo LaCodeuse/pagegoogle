@@ -1,0 +1,159 @@
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+}
+
+/* PARTIE 1 - LE HEADER */
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin-top: 20px;
+}
+
+.liens {
+    display: flex;
+    flex-direction: row;
+    list-style: none; 
+}
+
+.monlien {
+    margin-left: 10px;
+    text-decoration: none;
+    color: rgb(93, 93, 93);
+}
+
+.menu {
+    width: 20px;
+}
+
+.profil {
+    width: 50px;
+    border-radius: 50px;
+    margin-top: -18px;
+}
+
+/* PARTIE 2 - LA RECHERCHE */
+
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.google {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-google {
+    width: 300px;
+    margin-bottom: 30px;
+}
+
+
+#mes-recherches{
+    width: 500px;
+    height: 50px;
+    border-radius: 50px;
+    border: solid 1px rgb(201, 199, 199);
+}
+
+.imput {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.btn a {
+    margin-right: 30px;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(248, 248, 248);
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+
+p {
+    text-align: center;
+}
+
+.english {
+    text-decoration: none;
+    color: blue;
+}
+
+/* PARTIE 3 - LE FOOTER */
+
+.footer {
+    background-color: rgb(230, 230, 230);
+    padding: 30px;
+    width: 100%;
+    height: 100px;
+    margin-top: 100vh;
+    margin-bottom: 0px;
+}
+
+.navigationfooter {
+    display: flex;
+    flex-direction:row;
+    justify-content:left;
+    align-items: center;
+}
+
+.navigationfooter {
+    display: flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.pfooter {
+    text-align: left;
+    color: gray;
+    font-size: 18px;
+}
+
+.imgfeuille {
+    width: 20px;
+}
+
+.carbonne {
+    text-decoration: none;
+    color: rgb(102, 101, 101);
+}
+
+.liensfoot {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    list-style: none;
+    
+}
+
+.liensfoot a {
+    text-decoration: none;
+    color: rgb(109, 109, 109);
+    margin-right: 20px;
+    
+}
+
